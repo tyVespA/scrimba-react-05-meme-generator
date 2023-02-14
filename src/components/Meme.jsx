@@ -1,10 +1,11 @@
 import React from "react";
 import s from "../styles/Meme.module.css";
+import MemeData from "../styles/helpers/MemeData";
 
 function Meme() {
   function callAPI(e) {
     e.preventDefault();
-    console.log("API called");
+    console.log(MemeData.data.memes[5].url);
   }
 
   return (
