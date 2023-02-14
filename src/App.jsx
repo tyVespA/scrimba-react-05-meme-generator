@@ -1,10 +1,12 @@
 import "./styles/App.css";
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import Meme from "./components/Meme";
 
 function App() {
   return (
     <div className="app">
-      <Navbar />
+      <Header />
+      <Meme />
     </div>
   );
 }

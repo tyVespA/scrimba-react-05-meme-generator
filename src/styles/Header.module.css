@@ -1,0 +1,12 @@
+.memeGeneratorHeaderContainer {
+  color: white;
+  background-image: linear-gradient(to right, #672280, #a626d3);
+  padding: 20px 30px;
+}
+
+.memeGeneratorHeader {
+  display: flex;
+  gap: 20px;
+  max-width: 1000px;
+  margin-inline: auto;
+}

@@ -1,0 +1,31 @@
+.memeContainer {
+  max-width: 1000px;
+  margin-inline: auto;
+  padding-top: 40px;
+  padding-inline: 30px;
+}
+
+.inputContainer {
+  display: flex;
+  gap: 25px;
+  padding-bottom: 20px;
+}
+
+.inputContainer input[type="text"] {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(189, 189, 189);
+}
+
+.memeContainer button {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  cursor: pointer;
+  width: 100%;
+  color: white;
+  background-image: linear-gradient(to right, #672280, #a626d3);
+  border: transparent;
+  padding: 15px;
+  border-radius: 10px;
+}
